@@ -8,4 +8,4 @@
 - then run();
 = as like bellow
 
-- note: any route doesn't installed as like bellow .. it will response and render a 404 not found page 
+- note: any route doesn't installed as like in index.php .. it will response and render a 404 not found page 
