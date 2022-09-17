@@ -40,13 +40,10 @@ class Router
             $findPage = $this->routes[$method][$path];
             ob_start();
             include_once($findPage);
-        } elseif ($path === 'components') {
-            header("Location: $_SERVER[SERVER_NAME]");
         } else {
             http_response_code(404);
             ob_start();
             include_once("./components/_404.php");
-            //var_dump($_SERVER["SERVER_NAME"]);
         }
         return ob_get_clean();
     }
