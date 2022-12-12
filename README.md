@@ -1,5 +1,5 @@
 # routerApp
-- This is a simple and powerful Router App like frameworks
+- This is a simple and powerful Router App like frameworks using PHP clean codes
 - first build your page as you want and need inside components directory .. like home.php or login.php or any you want
 - I just biuld home.php, about.php and contact.php for example
 - then make a new instance for Router Class
